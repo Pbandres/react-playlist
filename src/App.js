@@ -44,8 +44,16 @@ const App = () => {
             />
               <h3>Added by: Gabriel Boorse</h3>
           </div>
+          <div className="card">
+            <YouTube
+              videoId="HPc8QMycGno"
+              opts={opts}
+              onReady={onReady}
+            />
+            <h3>Added by: Pablo Benjumea</h3>
         </div>
-      </div>
+        </div>
+        </div>
     )
 }
 
